@@ -1,7 +1,7 @@
 import User from "../Models/User.Models.js";
 import { generateToken } from "../Utils/JsonWebToken.Utils.js";
 import validator from 'validator';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import Notification from "../Models/Notification.Models.js";
 import { uploadOnCloudinary } from "../Utils/CloudConfig.Utils.js";
 import fs from 'fs'
